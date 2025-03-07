@@ -7,6 +7,11 @@ The non encoded and econded versions are the same. I created the encoded version
 The script also calls on english.txt via github. If you would like to make the file more secure I would recommend keeping it private and adding more/different words to it. Passwords using this word bank should be around 125Bits of entropy.
 
 
+Method of generating:
+Generates a phrase of 3 words, with one capital, hyphens, 2 digits and a special character
+
+ex:  Error-timber-bounce/33
+
 
 
 Disclaimer:

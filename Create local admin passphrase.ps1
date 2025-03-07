@@ -8,7 +8,7 @@ $localDictionaryFile = "./english.txt"
 if (-not (Test-Path $localDictionaryFile)) {
     try {
         Write-Host "Downloading dictionary file..."
-        Invoke-WebRequest "https://raw.githubusercontent.com/jaydienGH/capwgen/refs/heads/main/english.txt?token=GHSAT0AAAAAADAEK355LHRBLUFTHUDPDCHQZ6LHFZA" -OutFile $localDictionaryFile -ErrorAction Stop
+        Invoke-WebRequest "https://raw.githubusercontent.com/rokkiiss/ClientAdminGeneration/refs/heads/main/english.txt" -OutFile $localDictionaryFile -ErrorAction Stop
         Write-Host "Dictionary downloaded successfully."
     }
     catch {
